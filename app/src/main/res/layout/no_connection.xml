@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/icon"/>
+
+                    <TextView
+                        android:text="Opps!"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#b6292f"
+                        android:textSize="42dp"
+                        android:gravity="center"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp" />
+
+                    <TextView
+                        android:text="No Internet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/title"
+                        android:textSize="42dp"
+                        android:textColor="#b6292f"
+                        android:gravity="center"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp"
+                        android:layout_centerHorizontal="true" />
+                <Button
+                    android:text="@string/retry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/retry_button"
+                    android:background="#b6292f"
+                    android:textSize="20dp"
+                    android:textColor="#ffff"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".60"
+                android:orientation="horizontal">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@drawable/sad_cloud"-->
+<!--                    android:visibility="visible"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_alignParentEnd="true" />-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

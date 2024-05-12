@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#000000</color>
+    <color name="primaryDark">#000000</color>
+    <color name="primaryTransparent">#000000</color>
+    <color name="accent">#000000</color>
+
+    <color name="drawerBackground">#ffffff</color>
+    <color name="drawerText">#424242</color>
+
+    <color name="statusBarLight">#eeeeee</color>
+    <color name="navigationBarDark">#606060</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#000000</color>
+    <color name="gray">#989898</color>
+    <color name="red">#A802B1</color>
+
+
+</resources>
